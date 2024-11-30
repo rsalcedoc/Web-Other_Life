@@ -1,0 +1,113 @@
+/* Estilos generales */
+.introduction-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.introduction-header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #3f51b5;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.introduction-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.introduction-header p {
+    font-size: 1.2rem;
+}
+
+/* Sección de descripción */
+.about-oasis h2 {
+    font-size: 2rem;
+    color: #3f51b5;
+    margin-bottom: 15px;
+}
+
+.about-oasis p {
+    margin-bottom: 15px;
+}
+
+/* Comentarios de usuarios */
+.user-feedback h2 {
+    font-size: 2rem;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+
+.feedback {
+    background-color: #f9f9f9;
+    border-left: 5px solid #3f51b5;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.feedback blockquote {
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0;
+}
+
+.feedback cite {
+    display: block;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Guía práctica */
+.guide h2 {
+    font-size: 2rem;
+    color: #3f51b5;
+    margin-bottom: 15px;
+}
+
+.guide ol {
+    list-style: decimal inside;
+    margin: 0;
+    padding: 0;
+}
+
+.guide ol li {
+    margin-bottom: 10px;
+}
+
+.guide ol li strong {
+    color: #3f51b5;
+}
+/* Estilos generales para enlaces interactivos */
+.banner nav a {
+    cursor: pointer; /* Cambia el cursor a una mano */
+    text-decoration: none; /* Opcional, elimina el subrayado */
+}
+
+/* Estilo para los íconos interactivos */
+.grid-item {
+    cursor: pointer; /* Cambia el cursor a una mano */
+}
+/* Estilos para el contenedor del video */
+.oasis-video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Estilos para el video */
+.oasis-video {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

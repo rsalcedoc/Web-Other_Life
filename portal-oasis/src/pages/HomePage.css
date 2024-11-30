@@ -1,0 +1,140 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home-container h4 {
+  font-weight: bold;
+  color: #3f51b5;
+}
+
+.home-container p {
+  margin-bottom: 20px;
+}
+
+button {
+  width: 200px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Estilos del banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.about-tech {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+/* Estilos de la navegación central */
+.center-section nav {
+  display: flex;
+  gap: 20px;
+}
+
+.center-section a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.center-section a:hover {
+  color: #3f51b5;
+}
+
+/* Estilos de los íconos y el perfil a la derecha */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: white;
+  font-size: 30px; /* Eliminé la repetición */
+  transition: color 0.3s;
+}
+
+.profile-icon {
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+/* Estilos de los cuadros inferiores */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1;
+  min-height: calc(100vh - 100px); /* Cambié height por min-height */
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grid-icon {
+  font-size: 50px;
+  color: #3f51b5;
+  margin-bottom: 10px;
+}
+
+.grid-item p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Icono de la cartera */
+.wallet-icon {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.wallet-icon:hover {
+  color: #3f51b5;
+}

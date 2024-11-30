@@ -1,0 +1,86 @@
+/* Contenedor principal */
+.wallet-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Encabezado de la billetera */
+  .wallet-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .user-icon {
+    font-size: 50px;
+    color: #3f51b5;
+  }
+  
+  .wallet-header h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .wallet-header p {
+    margin: 0;
+    color: #666;
+  }
+  
+  /* Sección de balance */
+  .wallet-balance {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .wallet-balance h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .balance-amount {
+    font-size: 36px;
+    font-weight: bold;
+    color: #3f51b5;
+  }
+  
+  /* Opciones de la billetera */
+  .wallet-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .action-item {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .action-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .action-icon {
+    font-size: 30px;
+    color: #3f51b5;
+    margin-bottom: 10px;
+  }
+  
+  .action-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  

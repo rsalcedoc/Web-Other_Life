@@ -1,0 +1,92 @@
+/* Estilos para la página de inicio de sesión */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.links-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links-container .link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.links-container .link:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.social-links a {
+  color: #555;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-links a:hover {
+  color: #000;
+  text-decoration: underline;
+}

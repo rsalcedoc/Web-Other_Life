@@ -1,0 +1,76 @@
+.recarga-container {
+  width: 100%;
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recarga-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recarga-header h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+.recarga-header p {
+  font-size: 14px;
+  color: #777;
+}
+
+.recarga-methods {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.recarga-methods button {
+  width: 30%;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.recarga-methods button.active {
+  background-color: #357abd;
+}
+
+.recarga-details input, .recarga-details select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #43a047;
+}
+
+.recarga-completed {
+  text-align: center;
+  margin-top: 20px;
+}
